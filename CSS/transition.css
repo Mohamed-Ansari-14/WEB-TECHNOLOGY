@@ -1,0 +1,35 @@
+div{
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+    transition: width 2s
+}
+
+div:hover{
+    width: 250px;
+}
+
+#div1{
+    /* same speed */
+    transition-timing-function: linear;
+}
+
+#div2{
+    /* slow start,fast, slow end */
+    transition-timing-function: ease;
+}
+
+#div3{
+    /* slow start */
+    transition-timing-function: ease-in;
+}
+
+#div4{
+    /* slow end */
+    transition-timing-function: ease-out;
+}
+
+#div5{
+    /* slow start, slow end */
+    transition-timing-function: ease-in-out;
+}

@@ -1,0 +1,77 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 3s;
+
+    animation-direction: alternate; */
+    /* animation-direction: alternate-reverse;
+    animation-direction: reverse; */
+
+    /* position: relative;
+    box-shadow: 2px 3px 8px 5px grey; 
+}*/
+
+/* @keyframes example { */
+    /* from{
+        background-color: yellow;
+    }
+
+    to{
+        background-color: red;
+    } */
+
+    /* 0%{
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+    }
+
+    25%{
+        background-color: aqua;
+        left: 250px;
+        top: 0px;
+    }
+
+    50%{
+        background-color: blue;
+        left: 250px;
+        top: 250px;
+    }
+
+    75%{
+        background-color: blueviolet;
+        left: 350px;
+        top:350px;
+    }
+
+    100%{
+        background-color: brown;
+        left: 600px;
+        top: 400px;
+    }
+} */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 5s;
+
+    /* linear, ease, ease-in, ease-out, ease-in-out */
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example2 {
+    from{
+        left: 0px;
+    }
+
+    to{
+        left: 400px;
+    }
+}

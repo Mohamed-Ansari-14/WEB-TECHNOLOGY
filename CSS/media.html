@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+
+<style>
+    body{
+        background-color: blueviolet;
+        font-size: 40px;
+    }
+
+    .container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media print,(min-width:500px) and (max-width:700px) {
+        body{
+            background-color: red;
+        }
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="small">
+            Good Evening
+        </div>
+    </div>
+</body>
+</html>

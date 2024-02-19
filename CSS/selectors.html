@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* #div{
+            background-color: yellow;
+            height: 200px;
+            width: 150px;
+        }
+
+        .division{
+            background-color: red;
+            height: 250px;
+            width: 150px;
+        }
+
+        p{
+            background-color: skyblue;
+            height: 100px;
+            width: 100px;
+        } */
+
+        /* h1,div,p{
+            background-color: rgb(17, 143, 216);
+            height: 200px;
+            width: 200px;
+        } */
+
+        /* *{
+            background-color: rgb(138, 239, 127);
+        } */
+
+        /* div p{       //div parent p child
+            background-color: red;
+        } */
+
+        /* div>p{
+            background-color: red;
+        } */
+
+        /* div+p{      //immediate next para to div
+            background-color: hotpink;  
+        } */
+
+        /* div~p{      used to select next to div p tags
+            background-color: blueviolet;
+        } */
+
+        /* a[target = "_blank"]{
+            background-color: rgb(222, 142, 187);
+        } */
+
+        /* p::first-line{
+            background-color: red;
+        }
+
+        p::first-letter{
+            font-size: 55px;
+        }
+
+        p::before{
+            content: "Good Evening";
+        }
+
+        p::after{
+            content: "Good Bye";
+        }
+
+        p::selection{
+            background-color: aqua;
+            color: red;
+        } */
+
+        /* Un-Visited */
+
+        /* a:link{
+            color:rgb(16, 238, 231);
+        } */
+
+        /* visited */
+
+        /* a:visited{
+            color:hotpink;
+        }
+
+        a:hover{
+            color:rgb(9, 214, 9)
+        }
+
+        a:active{
+            color:rgb(248, 3, 3);
+        } */
+
+        /* p:first-child{
+            color:aqua;
+        }
+
+        p:last-child{
+            color:blue;
+        } */
+
+        p:nth-child(3){
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Simple Selector:- id(#),class(.),tagname,grouping(,),universal selector(*). -->
+
+    <!-- <h1>CSS Selectors</h1>
+
+    <div id="div">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Atque praesentium voluptates accusamus expedita 
+        dignissimos laboriosam!</div>
+
+    <div class="division">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Sequi a error, quod doloribus pariatur, vel ad accusantium, 
+        et maiores ut consectetur aliquam quasi. Earum, deleniti?</div>
+
+    <p>This is a paragraph element and also paired tag</p> -->
+
+    <!-- !!!Combinator Selectors (desendant,child,adjacent,general sibiling selector):- -->
+
+    <!-- <div>
+        <p>Para-1</p>
+        <p>Para-2</p>
+        <section>
+            <p>para-3</p>
+        </section>
+    </div>
+
+    <p>Para-4</p>
+    <p>para-5</p> -->
+
+    <!--!!!Attribute Selectors-->
+
+    <!-- <a href="https://www.amazon.com" target="_blank">Anchor Element-1</a>
+
+    <a href="https://www.amazon.com" target="_self">Anchor Element-2</a> -->
+
+    <!-- !pseudo Element Selector:- first line,first letter,after,before, (::)-->
+
+    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut explicabo quos minima ipsa repellendus
+        emporibus nesciunt. Ex fuga consectetur repudiandae ducimus iure voluptatem rem sequi necessitatibus quia 
+        impedit minima voluptatum vitae dignissimos aspernatur labore odit tempore vero magni eveniet et omnis, quisquam cum
+        molestiae? Doloremque pariatur tempora sed quis cumque?Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Quis nesciunt sunt animi fuga quas. Repellendus facilis ipsa asperiores animi, 
+        maiores atque harum architecto error eius!</p> -->
+
+    
+    <!-- pseudo class selector:- (:) -->
+    <!-- <a href="https://www.amazon.com">This is a Anchor Tag</a>
+    <br>
+    <a href="https://www.flipkart.com">This is a Anchor Tag</a> -->
+
+    <p>para-1</p>
+    <p>para-2</p>
+    <div>
+        <p>para-1</p>
+        <p>para-2</p>
+        <p>para-3</p>
+    </div>
+
+</body>
+</html>

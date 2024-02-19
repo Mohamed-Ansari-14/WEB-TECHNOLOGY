@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+    <style>
+        /* div{
+            background-color: aqua;
+            display: inline;      --->>we can convert from block level element to inline element
+            height: 100px;      -->>inline Element can't accept the height and width property
+            width: 100px;
+        }
+
+        span{
+            background-color: rgb(197, 197, 234);
+            /*display: block;       ---->    we can convert from inline element to block level element
+            height: 100px;     ---->   Block Level Element can accept the height and width property
+            width: 100px;
+            display: inline-block;     ---> span is a inline but it can accept both the inline and block level element property because of "inline-block"
+        } */
+
+        #main-container{
+            height: 300px;
+            width: 280px;
+            border: 2px solid red ;
+            display: flex;
+            justify-content: center;
+
+            /* justify-content: space-around;
+            justify-content: space-between; */
+
+            align-items: center;
+
+            /* align-items: flex-start;
+            align-items: flex-end; */
+
+            /* flex-direction:row;
+            flex-direction: row-reverse;
+            flex-direction: column; */
+
+            flex-direction: column-reverse;
+
+            /* flex-wrap: wrap;
+            flex-wrap: nowrap;
+            flex-wrap: wrap-reverse; */
+            
+        }
+
+        .div1{
+            background-color: rgb(169, 92, 241);
+            height: 40px;
+            width: 40px;
+        }
+        .div2{
+            background-color: rgb(111, 241, 11);
+            height: 40px;
+            width: 40px;
+        }
+        .div3{
+            background-color: rgb(13, 179, 234);
+            height: 40px;
+            width: 40px;
+        }
+        .div4{
+            background-color: rgb(212, 244, 55);
+            height: 40px;
+            width: 40px;
+        }
+        .div5{
+            background-color: rgb(250, 16, 110);
+            height: 40px;
+            width: 40px;
+        }
+        .div6{
+            background-color: rgb(237, 137, 13);
+            height: 40px;
+            width: 40px;
+        }
+        .div7{
+            background-color: rgb(89, 71, 189);
+            height: 40px;
+            width: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ullam, aperiam pariatur asperiores earum perspiciatis facilis maxime quis obcaecati consequatur.</div>
+
+    <span>Lorem ipsum dolor sit amet.</span> -->
+
+    <!--   Flex   -->
+
+    <div id="main-container">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+        <div class="div5">5</div>
+        <div class="div6">6</div>
+        <div class="div7">7</div>
+
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+        <div class="div5">5</div>
+        <div class="div6">6</div>
+        <div class="div7">7</div>
+    </div>
+
+</body>
+</html>

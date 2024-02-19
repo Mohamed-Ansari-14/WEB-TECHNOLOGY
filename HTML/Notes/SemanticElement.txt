@@ -1,0 +1,7 @@
+Semantic Elements:-
+        A Semantic Elements Clearly describes its meaning to both the user as well as browser.
+        ex:- <header></header>, <footer></footer> ...etc
+
+        Examples of semantic elements: <form> , <table> , and <article> - Clearly defines its content.
+
+        Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
