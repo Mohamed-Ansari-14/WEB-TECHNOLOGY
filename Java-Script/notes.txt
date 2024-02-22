@@ -1,0 +1,45 @@
+Java Script :- 
+    js is the most popular programming language used ro create interactive web pages.
+* it was invented by Brendan eich in 1995 and became an ECMA standard in 1997.
+* js is Scripting language.
+* Current verison of js is ES6(2015).
+
+Characteristics of JS :-
+
+1. client-side Scripting language:- The Code is readable, analyzable, and executable by the browser.
+2. Interpreted language:- line by line execution.
+3. Dynamically types language:- No need specify any datatypes.
+4. weekly typed language:- semicolon is optional.
+5. synchronous in nature:- it will executes line by line.
+
+Difference between Java & JavaScript:-
+
+Java:-
+1.Java is a strongly typed language and variables must be declared first to use in the program. In Java, the type of a variable is checked at compile-time.
+2.Java is an object-oriented programming language primarily used for developing complex enterprise applications.
+3.Java applications can run in any virtual machine(JVM) or browser.
+4.Java is a Standalone language.
+5.Java is mainly used for backend.
+6.Java uses more memory.
+7.Java requires a Java Development Kit(JDK) to run the code.
+
+
+JavaScript:-
+1.JavaScript is a loosely typed language and has a more relaxed syntax and rules.
+2.JavaScript is a scripting language used for creating interactive and dynamic web pages.
+3.JavaScript code used to run only in the browser, but now it can run on the server via Node.js.
+4.contained within a web page and integrates with its HTML content.
+5.Javascript is used for the frontend and backend both.
+6.Javascript uses less memory.
+7.Javascript requires any text editor or browser console to run the code.
+
+
+
+JavaScript Engine:- 
+        The JavaScript engine is simply a computer program that interprets JavaScript code. The engine is responsible for executing the code. Every major browser has a JavaScript engine that executes JavaScript code. 
+
+
+How does JavaScript actually work?
+        The program is executed from a binary format, which was generated from the original program source code. JavaScript is a lightweight interpreted programming language. The web browser receives the JavaScript code in its original text form and runs the script from that.
+
+
