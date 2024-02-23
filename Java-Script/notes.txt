@@ -43,3 +43,18 @@ How does JavaScript actually work?
         The program is executed from a binary format, which was generated from the original program source code. JavaScript is a lightweight interpreted programming language. The web browser receives the JavaScript code in its original text form and runs the script from that.
 
 
+
+Data Types in JavaScript:-
+                It is used to store what kind of data should be store in a variable.
+
+Two Types of Datatypes:-
+1.primitive Datatype.
+2.Non-primitive Datatype.
+
+Primitive Datatype:-
+        Which is used to store single value in a variable.
+        EX- Number,null,boolean,string,undefined,bigint,symbol.
+
+Non-primitive Datatype:-
+        Which is used to store Multiple values.
+        EX- Functions,Array,objects...etc
