@@ -58,3 +58,14 @@ var z1 = 10;
 var z2 = 20;
 
 console.log((z1<z2) ? z1 : z2); //10
+
+// let age = prompt("Enter Your Age: ")
+// let res = (age>=18) ? console.log("Eligible to Vote") : console.log("Not Eligible to Vote");
+
+if(100 === "100"){          // "===" is compare the both data as well as data type...
+    document.write("100 is Equal to 100")      // "==" is compare only the data not the data Type...
+}
+else{
+    document.write("Not Equal ")
+}
+
