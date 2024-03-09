@@ -72,3 +72,71 @@ x2.unshift(1,2,3);
 console.log(x2);
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//pop():-  It Removes and returns the last element of an array.
+
+var p = ['js',20,25,true,null,88]
+console.log(p);
+console.log(p.pop());   //88
+console.log(p);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//shift():- It Removes and Returns first element of an array.
+
+var sh = [11,22,33,44,55,66,77]
+console.log(sh.shift());    //11
+console.log(sh);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//sort():-  It Returns the Element of the given array by in a sorted order.
+
+var so = [10,24,17,9,69];
+console.log(so.sort());
+
+var so2 = ["graphes","apple","orange","banana"]
+console.log(so2.sort());
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//reverse():- 
+
+var rev = [7,6,5,4,3,2,1];
+console.log(rev.reverse());
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//slice():-  it Returns a new Array Containing the copy of the part of given array.
+//slice(Starting point,ending point)
+
+var sl = [10,20,30,40,50,60]
+console.log(sl.slice(1,5));     //20,30,40,50
+console.log(sl);        //-->It Does not modify the original Array.
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//splice():-  It Add/Remove Elements to/from the given array.//It Will Modify the original array.
+//splice(starting point,delete count,[add element]);
+
+var sp = [10,25,35,67,99,105,207]
+console.log(sp.splice(1,2));
+console.log(sp);
+// console.log(sp.splice(3,0,70,4,21));
+console.log(sp);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//includes():-  
+var arr = ["Dhoni",68,"MS"]
+console.log(arr.includes("Dhoni"));     //true
+console.log(arr.includes(70));          //false
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//indexOf():-  It Will Return the index value.
+
+var arr1 = [1,2,3,4,5,6,7,8];
+console.log(arr1.indexOf(5));    //4
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
