@@ -80,7 +80,7 @@ let x = {
 
 console.log(x);
 
-for(let z in x){
+for(let z in x){                //for in loop:-     iterate based on keys         
     console.log(z+":"+x[z]);
 }
 
@@ -92,3 +92,72 @@ for(let i=0;i<k.length;i++){
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//for of loop:-     //iterate based on values
+
+let person = {
+    name:"Mark",
+    sal:20000,
+    company:"Zoho"
+}
+
+console.log(person);
+
+for(let x of Object.values(person)){
+    console.log(x);
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//for each loop:-
+
+const arr = [1,2,3,"zoho",true]
+
+arr.forEach(ele =>{
+    console.log(ele);
+})
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//Date & Time Object:-
+
+const d = new Date();
+console.log(d);
+
+//new Date(date String)
+let dt = new Date("march 10,2000 7:20:21")
+console.log(dt);
+
+//new Date(year,month)
+var s = new Date(2000,5)
+console.log(s);
+
+//new Date(year,month,day)
+let xd = new Date(2002,1,10)    //in Js the month start from 0 to 11.
+console.log(xd);
+
+// new Date(year,month,day,hours)
+// new Date(year,month,day,hours,min)
+// new Date(year,month,day,hours,min,sec)
+// new Date(year,month,day,hours,min,sec,ms)
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//filter():-
+
+var arr3 = [1,2,3,4,5]
+let res = arr3.filter(x=>x%2==0)
+console.log(res);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//reduce():-
+
+let n = [21,31,41,51,61,71]
+console.log(n);
+let r = n.reduce((pre,ele,index,n)=>{
+    console.log(pre,ele,index,n);
+    return pre+ele;
+},0)
+
+console.log(r);
