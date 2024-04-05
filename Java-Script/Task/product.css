@@ -1,0 +1,105 @@
+body{
+    background-color: blueviolet;
+}
+
+div{
+    background-color: rgb(119, 62, 171);
+}
+
+#main-box{
+    border: 2px solid black;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 125px;
+}
+
+#right-box{
+    text-align: center;
+    margin: 5px;
+    padding-left: 45px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+h2{
+    color: white;
+}
+
+#price{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#btn1{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+}
+
+#btn1:hover{
+    background-color: rgb(156, 100, 240);
+}
+
+#btn2{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+}
+
+#btn2:hover{
+    background-color: rgb(156, 100, 240);
+}
+
+#btn3{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+}
+
+#btn3:hover{
+    background-color: rgb(156, 100, 240);
+}
+
+#btn4{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+}
+
+#btn4:hover{
+    background-color: rgb(156, 100, 240);
+}
+
+#btn{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 85px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#btn:hover{
+    background-color: rgb(156, 100, 240);
+}

@@ -1,0 +1,29 @@
+#myinput{
+    border: 1px solid black;
+    margin-left: 400px;
+    margin-top: 75px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#myinput:hover{
+    border: 2px solid rgb(5, 0, 0);
+}
+
+#myinput:active{
+    background-color: aliceblue;
+}
+
+#mytable{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    margin-left: 400px;
+}
+
+tr,th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+

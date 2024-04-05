@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+
+    <p id="para"></p>
+    <button onclick="demo()">Click Me</button><br><br>
+
+    <button id="btn">Click</button><br><br>
+
+    <button ondblclick="display()">Double Click</button><br><br>
+
+    <div id="div" style="height: 100px;width: 200px; background-color: purple;"></div><br><br>
+
+    <button id="btn2">Mouse-Up</button><br><br>
+
+    <input type="text" onkeypress="keypress()"><br><br>
+
+    <div style="width: 100%; height: 100px; border: 2px solid red; text-align: center;">Context Menu Will Be Enabled...</div>
+    <br><br>
+
+    <div id="div2" style="width: 100%; height: 100px; border: 2px solid rgb(8, 24, 250); text-align: center;">Context Menu Will Be Disabled...</div>
+    <br><br>
+
+    <form action="" onsubmit="submitform()">
+        <label for="username">User-Name:</label>
+        <input type="text" name="username"><br><br>
+        <input type="submit" value="submit">
+    </form>
+
+    <script src="./event.js"></script>
+</body>
+</html>
