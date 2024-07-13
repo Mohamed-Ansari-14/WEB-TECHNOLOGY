@@ -72,7 +72,7 @@ parent()(); //-->Calling parent function along with the child function.
 var x= ()=>{console.log("This is a Arrow Function");}
 x();
 
-//Whenever we have only one statement , we can skip the flower brackets {}.
+//Whenever we have only one statement , we can skip the flower brackets {}, as well as return statement.
 var x= ()=>console.log("This is a Arrow Function without {}");
 x();
 

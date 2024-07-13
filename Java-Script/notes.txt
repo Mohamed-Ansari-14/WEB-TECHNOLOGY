@@ -1,8 +1,9 @@
 Java Script :- 
-    js is the most popular programming language used ro create interactive web pages.
+
+* js is the most popular programming language used ro create interactive web pages.
 * it was invented by Brendan eich in 1995 and became an ECMA standard in 1997.
 * js is Scripting language.
-* Current verison of js is ES6(2015).
+* Stable verison of js is ES6(2015).
 
 Characteristics of JS :-
 
